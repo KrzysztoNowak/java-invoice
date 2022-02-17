@@ -113,7 +113,7 @@ public class InvoiceTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testInvoiceWithZeroQuantity() {
-        invoice.addProduct(new TaxFreeProduct("Tablet", new BigDecimal("1678")), 0);
+       invoice.addProduct(new TaxFreeProduct("Tablet", new BigDecimal("1678")), 0);
     }
 
     @Test(expected = IllegalArgumentException.class)

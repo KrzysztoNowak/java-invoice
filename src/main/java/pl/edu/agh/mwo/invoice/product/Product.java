@@ -31,6 +31,7 @@ public abstract class Product {
     }
 
     public BigDecimal getTaxPercent() {
+
         return this.taxPercent;
     }
 
